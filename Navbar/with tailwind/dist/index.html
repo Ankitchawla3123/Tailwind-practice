@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- <h1 class="text-blue-700 text-4xl">Yo my 1st tailwind command</h1> -->
+    <div class="flex bg-black justify-between items-center p-4 pl-8 pr-20">
+        <div class=" text-white text-5xl">Yo</div>
+        <ul class=" list-none flex justify-between items-center gap-11 ">
+            <li class=" text-white p-5"><a href="">Home</a></li>
+            <li class=" text-white p-5"><a href="">About us</a></li>
+            <li class=" text-white relative p-5 px-5 group "><a href="">Others</a>
+                <div class="absolute top-16 left-0 p-5 pl-2 pt-0 pb-3 hidden group-hover:block ">
+                    <ul class="bg-black flex flex-col gap-2.5 pl-2 pb-3 pr-8 ">
+                        <li><a href="">1st webpage</a></li>
+                        <li class="relative group/drop2 "><a href="">2nd webpage</a>
+                            <div class="hidden absolute left-16 top-0 group-hover/drop2:block ">
+                                <ul class="bg-black flex flex-col gap-3 pl-7 pb-3 pr-4 pt-1">
+                                    <li><a href="">another1</a></li>
+                                    <li><a href="">another2</a></li>
+                                    <li><a href="">another3</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="">3rd webpage</a></li>
+                        <li><a href="">4th webpage</a></li>
+                    </ul>
+                </div>
+                
+            </li>
+            <li class=" text-white p-4"><a href="">Next</a></li>
+            <li class=" text-white p-4"><a href="">Last</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>
